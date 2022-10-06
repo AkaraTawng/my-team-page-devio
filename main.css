@@ -12,4 +12,15 @@ body {
 
 h1 {
   font-family: "PT Serif", serif;
+}
+
+h2, p {
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  padding-left: 1rem;
+}
+header h1 {
+  margin: 4rem 0 3rem 0;
 }/*# sourceMappingURL=main.css.map */
