@@ -1,3 +1,15 @@
 .gallery__grid-container {
     display: grid;
 }
+
+.gallery-item__container {
+    position: relative;
+    width: fit-content;
+}
+
+.gallery-item__container--job-title {
+    position: absolute;
+    top: 15px;
+    right: -11%;
+    transform: rotate(90deg);
+}
