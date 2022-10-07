@@ -7,6 +7,13 @@
     width: fit-content;
 }
 
+.gallery-item__container--job-title:nth-of-type(1) {
+    position: absolute;
+    top: 4.2%;
+    right: -16%;
+    transform: rotate(90deg);
+}
+
 .gallery-item__container--job-title {
     position: absolute;
     top: 15px;
