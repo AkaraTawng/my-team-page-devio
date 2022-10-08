@@ -1,11 +1,16 @@
 .gallery__grid-container {
     display: grid;
-    
+    grid-template-columns: repeat(2, 1fr);
 }
 
 .gallery-item__container {
     position: relative;
     width: fit-content;
+}
+
+.gallery__grid-container figure:nth-child(even) {
+    margin-top: 4rem;
+    margin-left: 1rem;
 }
 
 .gallery-item__container--image {
@@ -24,7 +29,7 @@
 /* bill */
 .gallery__grid-container figure:nth-of-type(1) p {
     position: absolute;
-    top: 13%;
+    top: 9%;
     right: -43%;
 }
 
@@ -33,6 +38,7 @@
     position: absolute;
     top: 9%;
     right: -37%;
+    grid-row: 2 / 3;
 }
 
 /* shae */
