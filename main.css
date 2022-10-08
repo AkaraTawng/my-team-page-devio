@@ -51,16 +51,49 @@ header h1 {
   width: fit-content;
 }
 
+/* shared styles */
 .gallery-item__container--job-title:nth-of-type(1) {
   position: absolute;
   top: 4.2%;
-  right: -16%;
   transform: rotate(90deg);
 }
 
-.gallery-item__container--job-title {
+/* bill */
+.gallery__grid-container figure:nth-of-type(1) p {
   position: absolute;
-  top: 15px;
-  right: -11%;
-  transform: rotate(90deg);
+  top: 4.2%;
+  right: -15%;
+}
+
+/* saba */
+.gallery__grid-container figure:nth-of-type(2) p {
+  position: absolute;
+  top: 3%;
+  right: -13%;
+}
+
+/* shae */
+.gallery__grid-container figure:nth-of-type(3) p {
+  position: absolute;
+  top: 1.8%;
+  right: -12%;
+}
+
+/* skylah */
+.gallery__grid-container figure:nth-of-type(4) p {
+  position: absolute;
+  top: 3%;
+  right: -13%;
+}
+
+/* griff */
+.gallery__grid-container figure:nth-of-type(5) p {
+  top: 2%;
+  right: -12%;
+}
+
+/* stan */
+.gallery__grid-container figure:nth-of-type(6) p {
+  top: 2%;
+  right: -12%;
 }/*# sourceMappingURL=main.css.map */
