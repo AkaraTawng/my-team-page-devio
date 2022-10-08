@@ -16,9 +16,12 @@ p {
 .gallery-item__container--name {
     font-family: $poppins;
     font-weight: 600;
+    font-size: .6rem;
 }
 
 .gallery-item__container--job-title {
     font-family: $ptserif;
     font-weight: 100;
+    font-size: .6rem;
+    text-transform: uppercase;
 }
