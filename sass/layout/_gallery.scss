@@ -10,12 +10,16 @@
 
 .gallery__grid-container figure:nth-child(even) {
     margin-top: 4rem;
+    margin-left: 0rem;
+}
+
+.gallery__grid-container figure:nth-child(odd) {
     margin-left: 1rem;
 }
 
 .gallery-item__container--image {
-    height: 12rem;
-    width: 8rem;
+    height: 12.5rem;
+    width: 8.4rem;
     object-fit: cover;
 }
 
@@ -29,37 +33,37 @@
 /* bill */
 .gallery__grid-container figure:nth-of-type(1) p {
     top: 10%;
-    right: -43%;
+    right: -37%;
 }
 
 /* saba */
 .gallery__grid-container figure:nth-of-type(2) p {
     top: 9%;
-    right: -37%;
+    right: -31.5%;
 }
 
 /* shae */
 .gallery__grid-container figure:nth-of-type(3) p  {
     top: 5%;
-    right: -29%;
+    right: -25%;
 }
 
 /* skylah */
 .gallery__grid-container figure:nth-of-type(4) p {
     top: 7%;
-    right: -33%;
+    right: -28.5%;
 }
 
 /* griff */
 .gallery__grid-container figure:nth-of-type(5) p {
     top: 5%;
-    right: -30%;
+    right: -26%;
 }
 
 /* stan */
 .gallery__grid-container figure:nth-of-type(6) p {
     top: 5%;
-    right: -30%;
+    right: -26%;
 }
 
 
