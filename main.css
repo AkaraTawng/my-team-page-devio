@@ -64,7 +64,7 @@ header h1 {
 
 .gallery-item__container--image {
   height: 12rem;
-  width: 7rem;
+  width: 8rem;
   -o-object-fit: cover;
      object-fit: cover;
 }
