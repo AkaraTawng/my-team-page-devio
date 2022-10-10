@@ -93,25 +93,109 @@ header h1 {
   top: 10%;
   right: -37%;
 }
+.gallery__grid-container figure:nth-of-type(1):hover {
+  color: olivedrab;
+}
+.gallery__grid-container figure:nth-of-type(1):hover p {
+  top: 5.5%;
+  right: -45%;
+}
+.gallery__grid-container figure:nth-of-type(1):hover figcaption {
+  padding-top: 9%;
+}
+.gallery__grid-container figure:nth-of-type(1):hover img {
+  transform: scale(1.1);
+  box-shadow: 5px 5px 5px black;
+}
 .gallery__grid-container figure:nth-of-type(2) p {
   top: 9%;
   right: -31.5%;
+}
+.gallery__grid-container figure:nth-of-type(2):hover {
+  color: olivedrab;
+}
+.gallery__grid-container figure:nth-of-type(2):hover p {
+  top: 5.5%;
+  right: -40%;
+}
+.gallery__grid-container figure:nth-of-type(2):hover figcaption {
+  padding-top: 9%;
+}
+.gallery__grid-container figure:nth-of-type(2):hover img {
+  transform: scale(1.1);
+  box-shadow: 5px 5px 5px black;
 }
 .gallery__grid-container figure:nth-of-type(3) p {
   top: 5%;
   right: -25%;
 }
+.gallery__grid-container figure:nth-of-type(3):hover {
+  color: olivedrab;
+}
+.gallery__grid-container figure:nth-of-type(3):hover p {
+  top: 0%;
+  right: -34%;
+}
+.gallery__grid-container figure:nth-of-type(3):hover figcaption {
+  padding-top: 9%;
+}
+.gallery__grid-container figure:nth-of-type(3):hover img {
+  transform: scale(1.1);
+  box-shadow: 5px 5px 5px black;
+}
 .gallery__grid-container figure:nth-of-type(4) p {
   top: 7%;
   right: -28.5%;
+}
+.gallery__grid-container figure:nth-of-type(4):hover {
+  color: olivedrab;
+}
+.gallery__grid-container figure:nth-of-type(4):hover p {
+  top: 3%;
+  right: -37%;
+}
+.gallery__grid-container figure:nth-of-type(4):hover figcaption {
+  padding-top: 9%;
+}
+.gallery__grid-container figure:nth-of-type(4):hover img {
+  transform: scale(1.1);
+  box-shadow: 5px 5px 5px black;
 }
 .gallery__grid-container figure:nth-of-type(5) p {
   top: 5%;
   right: -26%;
 }
+.gallery__grid-container figure:nth-of-type(5):hover {
+  color: olivedrab;
+}
+.gallery__grid-container figure:nth-of-type(5):hover p {
+  top: 3%;
+  right: -36%;
+}
+.gallery__grid-container figure:nth-of-type(5):hover figcaption {
+  padding-top: 9%;
+}
+.gallery__grid-container figure:nth-of-type(5):hover img {
+  transform: scale(1.1);
+  box-shadow: 5px 5px 5px black;
+}
 .gallery__grid-container figure:nth-of-type(6) p {
   top: 5%;
   right: -26%;
+}
+.gallery__grid-container figure:nth-of-type(6):hover {
+  color: olivedrab;
+}
+.gallery__grid-container figure:nth-of-type(6):hover p {
+  top: 3%;
+  right: -36%;
+}
+.gallery__grid-container figure:nth-of-type(6):hover figcaption {
+  padding-top: 9%;
+}
+.gallery__grid-container figure:nth-of-type(6):hover img {
+  transform: scale(1.1);
+  box-shadow: 5px 5px 5px black;
 }
 
 .gallery-item__container {

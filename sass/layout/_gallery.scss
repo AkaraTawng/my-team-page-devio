@@ -12,39 +12,143 @@
     }
 
     /* bill */
-    figure:nth-of-type(1) p {
-    top: 10%;
-    right: -37%;
+    figure:nth-of-type(1) {
+    p {
+        top: 10%;
+        right: -37%;
+    }
+    
+    &:hover {
+    color: olivedrab; 
+        p {
+            top: 5.5%;
+            right: -45%;
+        }
+        figcaption {
+            padding-top: 9%;
+        }
+        img {
+            transform: scale(1.1);
+            box-shadow: 5px 5px 5px black;
+        }
+        }
     }
   
     /* saba */   
-    figure:nth-of-type(2) p {
+    figure:nth-of-type(2) {
+
+        p {
         top: 9%;
         right: -31.5%;
+        }
+        
+        &:hover {
+            color: olivedrab; 
+                p {
+                    top: 5.5%;
+                    right: -40%;
+                }
+                figcaption {
+                    padding-top: 9%;
+                }
+                img {
+                    transform: scale(1.1);
+                    box-shadow: 5px 5px 5px black;
+                }
+            }
     }
 
     /* shae */
-    figure:nth-of-type(3) p  {
-    top: 5%;
-    right: -25%;
+    figure:nth-of-type(3) {
+
+        p {
+            top: 5%;
+            right: -25%;
+        }
+
+        &:hover {
+            color: olivedrab; 
+                p {
+                    top: 0%;
+                    right: -34%;
+                }
+                figcaption {
+                    padding-top: 9%;
+                }
+                img {
+                    transform: scale(1.1);
+                    box-shadow: 5px 5px 5px black;
+                }
+            }
     }
 
     /* skylah */
-    figure:nth-of-type(4) p {
-    top: 7%;
-    right: -28.5%;
+    figure:nth-of-type(4) {
+        p {
+            top: 7%;
+            right: -28.5%;  
+        }
+
+        &:hover {
+            color: olivedrab; 
+                p {
+                    top: 3%;
+                    right: -37%;
+                }
+                figcaption {
+                    padding-top: 9%;
+                }
+                img {
+                    transform: scale(1.1);
+                    box-shadow: 5px 5px 5px black;
+                }
+            }
     }
 
     /* griff */
-    figure:nth-of-type(5) p {
-    top: 5%;
-    right: -26%;
+    figure:nth-of-type(5) {
+        p {
+            top: 5%;
+            right: -26%;
+        }
+
+        &:hover {
+            color: olivedrab; 
+                p {
+                    top: 3%;
+                    right: -36%;
+                }
+                figcaption {
+                    padding-top: 9%;
+                }
+                img {
+                    transform: scale(1.1);
+                    box-shadow: 5px 5px 5px black;
+                }
+            }
     }
 
     /* stan */
-    figure:nth-of-type(6) p {
-    top: 5%;
-    right: -26%;
+    figure:nth-of-type(6) {
+        p {
+            top: 5%;
+            right: -26%;
+        }
+
+        &:hover {
+            color: olivedrab; 
+                p {
+                    top: 3%;
+                    right: -36%;
+                }
+                figcaption {
+                    padding-top: 9%;
+                }
+                img {
+                    transform: scale(1.1);
+                    box-shadow: 5px 5px 5px black;
+                }
+            }
     }
 }
 
@@ -58,11 +162,18 @@
         top: 4.2%;
         transform: rotate(90deg);
     }
+
+
     
     &--image {
         height: 12.5rem;
         width: 8.4rem;
         object-fit: cover;
+
+        // &:hover  {
+        //     transform: scale(1.1);
+        //     box-shadow: 5px 5px 5px black;
+        // }
     }
 }
 
