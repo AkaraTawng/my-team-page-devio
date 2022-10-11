@@ -467,4 +467,19 @@ header h1 {
     -o-object-fit: cover;
        object-fit: cover;
   }
+}
+@media screen and (min-width: 480px) {
+  .gallery__grid-container figure:nth-child(odd) {
+    margin-left: 2.6rem;
+  }
+  .gallery__grid-container figure:nth-child(even) {
+    margin-top: 4rem;
+    margin-left: 1.8rem;
+  }
+  .gallery-item__container--image {
+    height: 15rem;
+    width: 10rem;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
 }/*# sourceMappingURL=main.css.map */
