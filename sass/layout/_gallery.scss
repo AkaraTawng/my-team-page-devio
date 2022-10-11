@@ -481,6 +481,14 @@
                 }
             }
         }
+        
+        figure:nth-of-type(2) {
+            &:hover {
+                figcaption {
+                    transition: all ease .5s;
+                }
+            }
+        }
       }
     
       .gallery-item__container {
