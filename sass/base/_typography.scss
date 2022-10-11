@@ -60,3 +60,13 @@ header p {
         }
     }
 }
+
+@media screen and (min-width: 480px) {
+    .gallery-item__container--job-title {
+        font-size: .7rem;
+    }
+
+    .gallery-item__container--name {
+        font-size: .8rem;
+    }
+}
