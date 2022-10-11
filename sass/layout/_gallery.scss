@@ -448,7 +448,19 @@
 }
 
 @media screen and (min-width: 400px) {
-    
+  .gallery__grid-container {
+    figure:nth-child(odd) {
+        margin-left: 2rem;
+    }
+  }
+
+  .gallery-item__container {
+    &--image {
+        height: 14rem;
+        width: 9rem;
+        object-fit: cover;
+    }
+}
 }
 
 

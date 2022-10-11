@@ -455,4 +455,16 @@ header h1 {
   width: 8.4rem;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+@media screen and (min-width: 400px) {
+  .gallery__grid-container figure:nth-child(odd) {
+    margin-left: 2rem;
+  }
+  .gallery-item__container--image {
+    height: 14rem;
+    width: 9rem;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
 }/*# sourceMappingURL=main.css.map */
