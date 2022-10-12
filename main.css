@@ -505,9 +505,6 @@ header h1 {
     padding: 3% 10%;
     font-size: 0.7rem;
   }
-  .gallery__grid-container figure:nth-of-type(2):hover .gallery-item__find-out-more {
-    left: 12.5%;
-  }
   .gallery__grid-container figure:nth-of-type(2):hover figcaption {
     transition: all ease 0.5s;
   }
