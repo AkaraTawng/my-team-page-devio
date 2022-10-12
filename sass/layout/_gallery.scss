@@ -580,6 +580,10 @@
     .gallery__grid-container {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
+
+        figure:nth-child(odd) {
+            margin-left: 1.8rem;
+        }
     }
 }
  

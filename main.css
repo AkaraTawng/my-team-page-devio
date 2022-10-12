@@ -553,4 +553,7 @@ header h1 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
   }
+  .gallery__grid-container figure:nth-child(odd) {
+    margin-left: 1.8rem;
+  }
 }/*# sourceMappingURL=main.css.map */
