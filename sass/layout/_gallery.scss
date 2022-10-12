@@ -509,6 +509,15 @@
                 }
             }
         }
+        
+        /* griff */
+        figure:nth-of-type(5) {
+            &:hover {
+                figcaption {
+                    transition: all ease .5s;
+                }
+            }
+        }
       }
     
       .gallery-item__container {
