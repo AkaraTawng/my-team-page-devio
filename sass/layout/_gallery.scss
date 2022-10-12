@@ -491,7 +491,17 @@
         
         /* saba */
         figure:nth-of-type(2) {
+            .gallery-item__find-out-more {
+                top: 50%;
+                padding: 3% 10%;
+                font-size: .7rem;
+            }
+
             &:hover {
+                .gallery-item__find-out-more {
+                    left: 12.5%;
+                }
+                
                 figcaption {
                     transition: all ease .5s;
                 }
