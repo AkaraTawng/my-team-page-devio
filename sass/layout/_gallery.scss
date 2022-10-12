@@ -604,7 +604,11 @@
         /* griff */
         figure:nth-of-type(5) {
             margin-top: 38%;
-          
+            &:hover {
+                .gallery-item__find-out-more {
+                    top: 34%;
+                }
+            }
         }
 
         /* stan */
