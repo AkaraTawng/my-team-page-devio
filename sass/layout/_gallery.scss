@@ -510,6 +510,13 @@
        
         /* shae */
         figure:nth-of-type(3) {
+            .gallery-item__find-out-more {
+                opacity: 0;
+                top: 50%;
+                padding: 3% 10%;
+                font-size: .7rem;
+            }
+            
             &:hover {
                 figcaption {
                     transition: all ease .5s;
