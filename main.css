@@ -520,6 +520,11 @@ header h1 {
   .gallery__grid-container figure:nth-of-type(3):hover figcaption {
     transition: all ease 0.5s;
   }
+  .gallery__grid-container figure:nth-of-type(4) .gallery-item__find-out-more {
+    top: 50%;
+    padding: 3% 10%;
+    font-size: 0.7rem;
+  }
   .gallery__grid-container figure:nth-of-type(4):hover figcaption {
     transition: all ease 0.5s;
   }
