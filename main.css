@@ -477,6 +477,11 @@ header h1 {
   }
 }
 @media screen and (min-width: 480px) {
+  .gallery__grid-container {
+    /* bill */
+    /* saba */
+    /* shae */
+  }
   .gallery__grid-container figure:nth-child(odd) {
     margin-left: 2.6rem;
   }
@@ -488,6 +493,9 @@ header h1 {
     transition: all ease 0.5s;
   }
   .gallery__grid-container figure:nth-of-type(2):hover figcaption {
+    transition: all ease 0.5s;
+  }
+  .gallery__grid-container figure:nth-of-type(3):hover figcaption {
     transition: all ease 0.5s;
   }
   .gallery-item__container--image {
