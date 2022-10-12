@@ -518,6 +518,15 @@
                 }
             }
         }
+       
+        /* stan */
+        figure:nth-of-type(6) {
+            &:hover {
+                figcaption {
+                    transition: all ease .5s;
+                }
+            }
+        }
       }
     
       .gallery-item__container {

@@ -483,6 +483,7 @@ header h1 {
     /* shae */
     /* skylah */
     /* griff */
+    /* stan */
   }
   .gallery__grid-container figure:nth-child(odd) {
     margin-left: 2.6rem;
@@ -504,6 +505,9 @@ header h1 {
     transition: all ease 0.5s;
   }
   .gallery__grid-container figure:nth-of-type(5):hover figcaption {
+    transition: all ease 0.5s;
+  }
+  .gallery__grid-container figure:nth-of-type(6):hover figcaption {
     transition: all ease 0.5s;
   }
   .gallery-item__container--image {
