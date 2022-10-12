@@ -567,6 +567,9 @@ header h1 {
   .gallery__grid-container figure:nth-of-type(4) {
     margin-top: 6%;
   }
+  .gallery__grid-container figure:nth-of-type(4):hover .gallery-item__find-out-more {
+    top: 27%;
+  }
   .gallery__grid-container figure:nth-of-type(5) {
     margin-top: 38%;
   }
