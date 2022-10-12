@@ -556,6 +556,12 @@
        
         /* stan */
         figure:nth-of-type(6) {
+            .gallery-item__find-out-more {
+                top: 50%;
+                padding: 3% 10%;
+                font-size: .7rem;
+            }
+            
             &:hover {
                 figcaption {
                     transition: all ease .5s;
