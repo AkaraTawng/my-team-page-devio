@@ -622,4 +622,8 @@ header h1 {
     top: 6.5%;
     right: -30%;
   }
+  .gallery__grid-container figure:nth-of-type(1):hover p {
+    top: 4%;
+    right: -38%;
+  }
 }/*# sourceMappingURL=main.css.map */
