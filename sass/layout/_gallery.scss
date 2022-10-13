@@ -662,15 +662,25 @@
             right: -30%;
         }
 
+        .gallery-item__find-out-more {
+            left: 19%;
+            padding: 3% 10%;
+            font-size: .7rem;
+        }
+
         &:hover {
             p {
                 top: 4%;
                 right: -38%;
             }
+
+            .gallery-item__find-out-more {
+                left: 19%;
+            }
         }
     }
 
-    
+
 }
 }
  

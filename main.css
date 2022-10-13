@@ -622,8 +622,16 @@ header h1 {
     top: 6.5%;
     right: -30%;
   }
+  .gallery__grid-container figure:nth-of-type(1) .gallery-item__find-out-more {
+    left: 19%;
+    padding: 3% 10%;
+    font-size: 0.7rem;
+  }
   .gallery__grid-container figure:nth-of-type(1):hover p {
     top: 4%;
     right: -38%;
+  }
+  .gallery__grid-container figure:nth-of-type(1):hover .gallery-item__find-out-more {
+    left: 19%;
   }
 }/*# sourceMappingURL=main.css.map */
