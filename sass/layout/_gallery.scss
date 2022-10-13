@@ -653,7 +653,16 @@
     .gallery__grid-container {
         margin-left: 12rem;    
         width: 75%;
+
+         /* bill */
+    figure:nth-of-type(1) {
+
+        p {
+            top: 6.5%;
+            right: -30%;
+        }
     }
+}
 }
  
 
