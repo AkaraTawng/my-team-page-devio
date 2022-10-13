@@ -618,6 +618,7 @@ header h1 {
     width: 75%;
     /* bill */
     /* saba */
+    /* shae */
   }
   .gallery__grid-container figure:nth-of-type(1) p {
     top: 6.5%;
@@ -649,6 +650,22 @@ header h1 {
     right: -34%;
   }
   .gallery__grid-container figure:nth-of-type(2):hover .gallery-item__find-out-more {
+    left: 19%;
+  }
+  .gallery__grid-container figure:nth-of-type(3) p {
+    top: 3%;
+    right: -22%;
+  }
+  .gallery__grid-container figure:nth-of-type(3) .gallery-item__find-out-more {
+    left: 19%;
+    padding: 3% 10%;
+    font-size: 0.7rem;
+  }
+  .gallery__grid-container figure:nth-of-type(3):hover p {
+    top: -1%;
+    right: -29%;
+  }
+  .gallery__grid-container figure:nth-of-type(3):hover .gallery-item__find-out-more {
     left: 19%;
   }
 }/*# sourceMappingURL=main.css.map */
