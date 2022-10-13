@@ -628,7 +628,8 @@
         display: flex;
         justify-content: space-evenly;
         align-items: flex-end; 
-        margin-top: 5%;
+        margin-top: 6%;
+        margin-bottom: 3%;
 
         .header-h1-container {
             align-self: flex-start;
@@ -647,6 +648,11 @@
             height: 19rem;
             width: 13rem;
         }
+    }
+
+    .gallery__grid-container {
+        margin-left: 12rem;    
+        width: 75%;
     }
 }
  
