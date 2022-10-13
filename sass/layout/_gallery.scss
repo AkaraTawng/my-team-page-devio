@@ -641,6 +641,13 @@
             width: 29vw;
         }
     }
+
+    .gallery-item__container {
+        &--image {
+            height: 19rem;
+            width: 13rem;
+        }
+    }
 }
  
 

@@ -599,4 +599,8 @@ header h1 {
   header .header-who-we-are-container {
     width: 29vw;
   }
+  .gallery-item__container--image {
+    height: 19rem;
+    width: 13rem;
+  }
 }/*# sourceMappingURL=main.css.map */
