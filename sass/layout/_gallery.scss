@@ -757,6 +757,32 @@
             }
         }
     }
+  
+    /* griff */
+     figure:nth-of-type(5) {
+
+        p {
+            top: 4%;
+            right: -22%;
+        }
+
+        .gallery-item__find-out-more {
+            left: 19%;
+            padding: 3% 10%;
+            font-size: .7rem;
+        }
+
+        &:hover {
+            p {
+                top: 1%;
+                right: -29%;
+            }
+
+            .gallery-item__find-out-more {
+                left: 19%;
+            }
+        }
+    }
 
 
 }

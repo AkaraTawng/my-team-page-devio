@@ -620,6 +620,7 @@ header h1 {
     /* saba */
     /* shae */
     /* skylah */
+    /* griff */
   }
   .gallery__grid-container figure:nth-of-type(1) p {
     top: 6.5%;
@@ -683,6 +684,22 @@ header h1 {
     right: -29%;
   }
   .gallery__grid-container figure:nth-of-type(4):hover .gallery-item__find-out-more {
+    left: 19%;
+  }
+  .gallery__grid-container figure:nth-of-type(5) p {
+    top: 4%;
+    right: -22%;
+  }
+  .gallery__grid-container figure:nth-of-type(5) .gallery-item__find-out-more {
+    left: 19%;
+    padding: 3% 10%;
+    font-size: 0.7rem;
+  }
+  .gallery__grid-container figure:nth-of-type(5):hover p {
+    top: 1%;
+    right: -29%;
+  }
+  .gallery__grid-container figure:nth-of-type(5):hover .gallery-item__find-out-more {
     left: 19%;
   }
 }/*# sourceMappingURL=main.css.map */
