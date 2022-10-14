@@ -750,5 +750,12 @@ header h1 {
   }
   .gallery__grid-container {
     margin-left: 13rem;
+    /* bill */
+  }
+  .gallery__grid-container figure:nth-of-type(1) .gallery-item__find-out-more {
+    left: 24%;
+  }
+  .gallery__grid-container figure:nth-of-type(1):hover .gallery-item__find-out-more {
+    left: 24%;
   }
 }/*# sourceMappingURL=main.css.map */
