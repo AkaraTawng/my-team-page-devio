@@ -870,6 +870,20 @@
                 }
             }
         }
+        
+            /* skylah */
+        figure:nth-of-type(4) {
+            .gallery-item__find-out-more {
+                left: 24%;
+            }
+            
+            &:hover {
+                .gallery-item__find-out-more {
+                    left: 24%;
+                    top: 30%;
+                }
+            }
+        }
     }
 }
 
