@@ -38,13 +38,6 @@ header p {
   text-transform: uppercase;
 }
 
-.footer__container {
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
-}
-
 .footer__paragraph {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
@@ -79,6 +72,27 @@ header p {
   }
   .gallery-item__container--name {
     font-size: 1rem;
+    padding-top: 2%;
+  }
+}
+@media screen and (min-width: 1536px) {
+  header .header-h1-container {
+    font-size: 1.3rem;
+  }
+  header .header-who-we-are-container {
+    width: 35vw;
+  }
+  header .header-who-we-are-container h2 {
+    font-size: 2rem;
+  }
+  header .header-who-we-are-container p {
+    font-size: 1.3rem;
+  }
+  .gallery-item__container--job-title {
+    font-size: 0.9rem;
+  }
+  .gallery-item__container--name {
+    font-size: 1.2rem;
     padding-top: 2%;
   }
 }
@@ -128,7 +142,7 @@ header h1 {
   color: white;
 }
 .gallery__grid-container figure:nth-of-type(1):hover {
-  color: olivedrab;
+  color: rgb(107, 142, 35);
 }
 .gallery__grid-container figure:nth-of-type(1):hover p {
   top: 5.5%;
@@ -474,6 +488,13 @@ header h1 {
      object-fit: cover;
 }
 
+.footer__container {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
 @media screen and (min-width: 400px) {
   .gallery__grid-container figure:nth-child(odd) {
     margin-left: 2rem;
@@ -606,7 +627,7 @@ header h1 {
   header .header-h1-container h1 {
     margin-top: 4%;
   }
-  header .header-who-we-are-container {
+  .header-who-we-are-container {
     width: 29vw;
   }
   .gallery-item__container--image {
@@ -718,5 +739,13 @@ header h1 {
   }
   .gallery__grid-container figure:nth-of-type(6):hover .gallery-item__find-out-more {
     left: 19%;
+  }
+}
+@media screen and (min-width: 1536px) {
+  .gallery-item__container--image {
+    height: 26rem;
+    width: 17rem;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 }/*# sourceMappingURL=main.css.map */

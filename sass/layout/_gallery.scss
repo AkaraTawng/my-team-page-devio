@@ -36,7 +36,7 @@
     }
 
     &:hover {
-    color: olivedrab; 
+    color: rgb(107, 142, 35); 
 
         p {
             top: 5.5%;
@@ -447,6 +447,13 @@
     }
 }
 
+.footer__container {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
 @media screen and (min-width: 400px) {
   .gallery__grid-container {
     figure:nth-child(odd) {
@@ -637,10 +644,9 @@
                 margin-top: 4%;
              }
         }
-
-        .header-who-we-are-container {
-            width: 29vw;
-        }
+    }
+    .header-who-we-are-container {
+        width: 29vw;
     }
 
     .gallery-item__container {
@@ -809,11 +815,19 @@
             }
         }
     }
-
-
 }
 }
  
+
+@media screen and (min-width: 1536px) {
+    .gallery-item__container {
+        &--image {
+            height: 26rem;
+            width: 17rem;
+            object-fit: cover;
+        }
+    }
+}
 
 
 
