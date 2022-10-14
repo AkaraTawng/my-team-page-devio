@@ -843,6 +843,20 @@
                 }
             }
         }
+         
+            /* saba */
+        figure:nth-of-type(2) {
+            .gallery-item__find-out-more {
+                left: 24%;
+            }
+            
+            &:hover {
+                .gallery-item__find-out-more {
+                    left: 24%;
+                    top: 37%;
+                }
+            }
+        }
     }
 }
 
