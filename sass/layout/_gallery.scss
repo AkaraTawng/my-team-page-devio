@@ -898,6 +898,20 @@
                 }
             }
         }
+        
+            /* stan */
+        figure:nth-of-type(6) {
+            .gallery-item__find-out-more {
+                left: 24%;
+            }
+            
+            &:hover {
+                .gallery-item__find-out-more {
+                    left: 24%;
+                    top: 30%;
+                }
+            }
+        }
     }
 }
 

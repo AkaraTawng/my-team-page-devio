@@ -755,6 +755,7 @@ header h1 {
     /* shae */
     /* skylah */
     /* griff */
+    /* stan */
   }
   .gallery__grid-container figure:nth-of-type(1) .gallery-item__find-out-more {
     left: 24%;
@@ -788,5 +789,12 @@ header h1 {
   .gallery__grid-container figure:nth-of-type(5):hover .gallery-item__find-out-more {
     left: 24%;
     top: 37%;
+  }
+  .gallery__grid-container figure:nth-of-type(6) .gallery-item__find-out-more {
+    left: 24%;
+  }
+  .gallery__grid-container figure:nth-of-type(6):hover .gallery-item__find-out-more {
+    left: 24%;
+    top: 30%;
   }
 }/*# sourceMappingURL=main.css.map */
