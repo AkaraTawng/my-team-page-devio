@@ -748,4 +748,7 @@ header h1 {
     -o-object-fit: cover;
        object-fit: cover;
   }
+  .gallery__grid-container {
+    margin-left: 13rem;
+  }
 }/*# sourceMappingURL=main.css.map */
