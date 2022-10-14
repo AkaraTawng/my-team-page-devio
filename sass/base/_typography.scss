@@ -32,13 +32,6 @@ header p {
     text-transform: uppercase;
 }
 
-.footer__container {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-}
-
 .footer__paragraph {
     font-family: $montserrat;
     font-weight: 400;
@@ -83,6 +76,25 @@ header p {
 }
 
 @media screen and (min-width: 1536px) {
+    header {
+        
+    .header-h1-container {
+        font-size: 1.3rem;
+    }
+
+    .header-who-we-are-container {
+        width: 35vw;
+        h2 {
+            font-size: 2rem;
+        }
+
+        p {
+            font-size: 1.3rem;
+    
+        }
+    }
+    }
+
     .gallery-item__container--job-title {
         font-size: .9rem;
     }
