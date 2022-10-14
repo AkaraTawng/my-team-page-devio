@@ -81,3 +81,14 @@ header p {
         padding-top: 2%;
     }
 }
+
+@media screen and (min-width: 1536px) {
+    .gallery-item__container--job-title {
+        font-size: .9rem;
+    }
+
+    .gallery-item__container--name {
+        font-size: 1.2rem;
+        padding-top: 2%;
+    }
+}
