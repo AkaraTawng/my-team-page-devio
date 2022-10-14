@@ -884,6 +884,20 @@
                 }
             }
         }
+        
+            /* griff */
+        figure:nth-of-type(5) {
+            .gallery-item__find-out-more {
+                left: 24%;
+            }
+            
+            &:hover {
+                .gallery-item__find-out-more {
+                    left: 24%;
+                    top: 37%;
+                }
+            }
+        }
     }
 }
 
