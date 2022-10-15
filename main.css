@@ -797,4 +797,9 @@ header h1 {
     left: 24%;
     top: 30%;
   }
+}
+@media screen and (min-width: 1920px) {
+  .gallery__grid-container {
+    margin-left: 18rem;
+  }
 }/*# sourceMappingURL=main.css.map */
