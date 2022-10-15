@@ -48,7 +48,7 @@ header p {
 .footer__paragraph--link {
   text-decoration: none;
   text-decoration: underline;
-  color: inherit;
+  color: white;
   font-weight: 700;
 }
 .footer__paragraph--link:hover {
