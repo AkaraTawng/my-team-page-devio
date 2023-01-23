@@ -41,15 +41,15 @@ header p {
 .footer__paragraph {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
-  font-size: 0.7rem;
+  font-size: clamp(0.5rem, 0.36rem + 0.7vw, 1.2rem);
   text-align: center;
   color: #A9A9A9;
 }
 .footer__paragraph--link {
   text-decoration: none;
   text-decoration: underline;
-  color: white;
   font-weight: 700;
+  color: grey;
 }
 .footer__paragraph--link:hover {
   color: rgb(90, 90, 90);
