@@ -44,7 +44,7 @@
 
 - Go to live [site](https://my-team-page-chris-cham.netlify.app/)
 - See the demo [here](https://devchallenges.io/solutions/tYfAaAPolbMB87S4dKbz)
-- This was my first time making a staggered, assymetrical layout like this. It was quite challenging, but after researching CSS grid I was able to implement it. 
+- This was my first time making a staggered, assymetrical layout like this. It was quite challenging, but after researching and experimenting with CSS grid I was able to implement it. 
 
 ### Built With
 
