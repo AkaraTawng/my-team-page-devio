@@ -4,7 +4,7 @@
 
     figure:nth-child(even) {
         margin-top: 4rem;
-        margin-left: 0rem;
+        margin-left: -.2rem;
     }
 
     figure:nth-child(odd) {
@@ -16,7 +16,7 @@
 
     p {
         top: 10%;
-        right: -37%;
+        right: -40%;
     }
 
     .gallery-item__find-out-more {
@@ -89,6 +89,7 @@
         p {
         top: 9%;
         right: -31.5%;
+        right: -35%;
         }
 
         .gallery-item__find-out-more {
@@ -158,7 +159,7 @@
 
         p {
             top: 5%;
-            right: -25%;
+            right: -29%;
         }
 
         .gallery-item__find-out-more {
@@ -227,7 +228,7 @@
     figure:nth-of-type(4) {
         p {
             top: 7%;
-            right: -28.5%;  
+            right: -33%;  
         }
 
         .gallery-item__find-out-more {
@@ -295,7 +296,7 @@
     figure:nth-of-type(5) {
         p {
             top: 5%;
-            right: -26%;
+            right: -29%;
         }
 
         .gallery-item__find-out-more {
@@ -364,7 +365,7 @@
     figure:nth-of-type(6) {
         p {
             top: 5%;
-            right: -26%;
+            right: -29%;
         }
 
         .gallery-item__find-out-more {
@@ -441,8 +442,10 @@
     }
     
     &--image {
-        height: 12.5rem;
-        width: 8.4rem;
+        height: 12rem;
+        width: 7.5rem;
+        // height: 12.5rem;
+        // width: 8.4rem;
         object-fit: cover;
     }
 }
