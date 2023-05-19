@@ -8,10 +8,6 @@
 
 <div align="center">
   <h3>
-    <a href="https://devchallenges.io/solutions/tYfAaAPolbMB87S4dKbz">
-      Demo
-    </a>
-    <span> | </span>
     <a href="https://my-team-page-chris-cham.netlify.app/">
       Site
     </a>
@@ -34,20 +30,7 @@
 <!-- OVERVIEW -->
 
 ## Overview
-
-### Fully Responsive UI
-![fully responsive ui gif](./gifs/fully-responsive-ui.gif)
-
-### Image Hover Overlay
-![image hover overalay gif](./gifs/image-hover-overlay.gif)
-
-
-
-
-
-- Go to live [site](https://my-team-page-chris-cham.netlify.app/)
-- See the demo [here](https://devchallenges.io/solutions/tYfAaAPolbMB87S4dKbz)
-- This was my first time making a staggered, assymetrical layout like this. It was quite challenging, but after researching and experimenting with CSS grid I was able to implement it. 
+I developed this team page as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/hhmesazsqgKXrTkYkt0U) was to build an application to complete the given user stories and replicate the provided Figma design. This was my first time making a staggered, assymetrical layout like this. It was quite challenging, but after researching and experimenting with CSS grid I was able to implement it. 
 
 ### Built With
 
@@ -61,8 +44,11 @@
 
 <!-- List the features of your application or follow the template. Don't share the figma file here :) -->
 
-I developed this team page as a submission to a [DevChallenges](https://devchallenges.io/challenges) challenge. The [challenge](https://devchallenges.io/challenges/hhmesazsqgKXrTkYkt0U) was to build an application to complete the given user stories and replicate the provided Figma design.
+### Fully Responsive UI
+![fully responsive ui gif](./gifs/fully-responsive-ui.gif)
 
+### Image Hover Overlay
+![image hover overalay gif](./gifs/image-hover-overlay.gif)
 
 ## How To Use
 
