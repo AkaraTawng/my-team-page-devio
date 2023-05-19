@@ -66,7 +66,7 @@ $ npm start
 ```
 ## Contact
 
-- [Website](https://christopher-chamberlain.netlify.app/)
+- [Website](https://chris-chamberlain-portfolio.netlify.app/)
 - [GitHub](https://github.com/AkaraTawng)
 - [Twitter](https://twitter.com/chris_tawan)
 - [LinkedIn](https://www.linkedin.com/in/christopher-chamberlain-023507205/)
